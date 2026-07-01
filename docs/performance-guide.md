@@ -68,7 +68,7 @@ Each amp (`TTLA_amp`, `presence_amp`, `influence_amp`, `strategic_amp`) sets how
 11. drop `g_TTLA` → 0
 12. *(opt)* `[:servant, :present, :influential, :fair, :strategic]`
 13. *(opt)* `[:servant, :present, :influential, :visionary, :strategic]`
-15. restore all three → 1 + `[:present, :influential, :strategic]`
+15. restore all three → 1 + `[:present, :influential, :strategic]` plus `g_presence_pillar` · `g_influence_pillar` · `g_TTLA` → 1
 16. drop `g_influence_pillar` → 0
 17. `[:present, :strategic]`
 18. drop `g_presence_pillar` → 0
