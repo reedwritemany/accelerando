@@ -12,7 +12,7 @@ set :g_influence_pillar,   0   # snare + hats (bring in to "move the room")
 set :g_strategic_pillar,   1   # STRATEGIC = your word-cloud lead (START HERE: servant alone)
 # ── PER-SECTION VOLUME (gate = ON/OFF, amp = how loud). ~0.2 to ~1.5.
 set :TTLA_amp,             0.4   # THE PROGRAM bass — the foundation that carries you
-set :presence_amp,         0.8   # how strongly you show up (kick)
+set :presence_amp,         0.6   # how strongly you show up (kick)
 set :influence_amp,        0.4
 set :strategic_amp,        0.4   # your strategic lead
 # ── BASS NOTE follows combo size: 1->F 2->C 3->Ab 4->Bb 5->F(oct).
