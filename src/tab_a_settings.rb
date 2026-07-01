@@ -30,7 +30,7 @@ set :fade,                 1
 #                 [:servant, :present, :influential, :authentic, :strategic]
 #                 [:servant, :present, :influential, :fair, :strategic]
 #                 [:servant, :present, :influential, :visionary, :strategic]
-#   5. ANSWER:    [:present, :influential, :strategic]     (servant -> strategic)                                      (strategic alone, then fade)
+#   5. ANSWER:    [:present, :influential, :strategic]     (servant -> strategic)
 set :strategic_combo,  [:servant]
 define :pattern do |pattern|
   return pattern.ring.tick == "x"
